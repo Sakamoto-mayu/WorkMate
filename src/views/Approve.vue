@@ -127,6 +127,12 @@ const approveWork = async (list) => {
   const result = await response.json()
   console.log('approveWork', result)
 }
+
+// onMounted(async () => {
+//   const response = await fetch(`http://localhost:8000/GetRole`)
+//   const RoleData = await response.json()
+//   console.log('success', RoleData)
+// })
 </script>
 
 <template>
